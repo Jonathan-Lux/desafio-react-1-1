@@ -1,0 +1,33 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+}
+
+.container input{
+    padding: 1rem;
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    height: 3.375rem;
+    width: 100%;
+    border: 2px solid var(--gray-700);
+    color: var(--gray-100);
+}
+.container button{
+    border: none;
+    color: var(--gray-100);
+    padding: 1rem;
+    background-color:var(--blue-dark);
+    border-radius: 8px;
+    display: flex;
+    height: 3.25rem;
+    width: 5.625rem;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.75rem;
+}

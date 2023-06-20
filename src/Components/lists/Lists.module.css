@@ -1,0 +1,102 @@
+article {
+  margin-top: 77px;
+}
+
+article .counts {
+  display: flex;
+  justify-content: space-between;
+}
+
+article .counts strong:first-child {
+  color: var(--blue);
+}
+
+article .counts strong {
+  color: var(--purple);
+  display: flex;
+  gap: 8px;
+}
+
+article .counts strong p {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  padding: 2px 8px 2px 8px;
+  border-radius: 999px;
+  font-weight: 700;
+  line-height: 1rem;
+  font-size: 0.75rem;
+}
+
+article .noList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid var(--gray-400);
+  margin-top: 1.5rem;
+}
+
+article .emptyLists {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+article  .emptyLists img {
+  margin-bottom: 1rem;
+}
+
+article .emptyLists strong,
+p {
+  color: var(--gray-300);
+  line-height: 1.5rem;
+}
+
+.wrapper {
+  margin-top: 1.5rem;
+}
+
+.wrapper ul {
+  display: grid;
+  gap: 1rem;
+}
+.wrapper ul li {
+  border: 1px solid var(--gray-400);
+  background-color: var(--gray-500);
+  list-style: none;
+  border-radius: 8px;
+  padding: 1rem;
+  gap: 0.75rem;
+  color: var(--gray-100);
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper ul li .isComplete {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+.wrapper ul li + li {
+  margin-top: 0.8rem;
+}
+
+.wrapper .listDone{
+  color: var(--gray-300);
+  text-decoration: line-through ;
+}
+
+.wrapper ul li button {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  outline: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
